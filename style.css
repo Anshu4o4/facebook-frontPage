@@ -1,0 +1,147 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.left-section {
+    margin-top: 180px;
+    margin-left: 160px;
+    width: 50%;
+}
+
+.right-section {
+    margin-top: 180px;
+    margin-left: 160px;
+    width: 50%;
+}
+
+body {
+    background-color: #F2F4F7;
+}
+
+img {
+    margin-left: 4px;
+    height: 80px;
+    width: 320px;
+}
+
+h2 {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 500px;
+    margin-left: 30px;
+    margin-top: -14px;
+    color: #1C1E21;
+}
+
+.form {
+    width: 396px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -50px;
+    margin-left: -90px;
+    background-color: white;
+    box-shadow: 0 4px 8px #0000001a, 0 16px 32px #0000;
+    border: none;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.all-content {
+    display: flex;
+}
+
+.form input {
+    border-radius: 8px;
+    padding: 14px;
+    font-size: 17px;
+    margin-top: 16px;
+    width: 364px;
+    height: 52px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #fff;
+    border: 1px solid #dddfe2;
+    vertical-align: middle;
+}
+
+input::placeholder {
+    color: rgb(197, 197, 197);
+}
+
+input:focus {
+    border: 1px solid rgb(72, 144, 253);
+    outline: none;
+    box-shadow: 0 0 2px rgba(102, 164, 245, 0.5);
+}
+
+.loginbtn {
+    background-color: #0866ff;
+    border: none;
+    border-radius: 6px;
+    font-size: 22px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 364px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 16px;
+}
+
+.cap {
+    margin-top: 28px;
+    margin-left: -50px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cap a {
+    margin-top: 10px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.fp {
+    margin-top: 14px;
+    color: #0866ff;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.fp:hover {
+    text-decoration: underline;
+}
+
+hr {
+    margin-top: 22px;
+    width: 364px;
+    height: 1px;
+    border: none;
+    background-color: rgb(204, 202, 202);
+}
+
+.cna {
+    background-color: #3bbd21;
+    border-color: #36A420;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 16px;
+    height: 48px;
+    width: 192px;
+    color: #fff;
+    text-align: center;
+    padding-left: 1px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 25px;
+    font-size: 18px;
+}
